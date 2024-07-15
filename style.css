@@ -1,0 +1,14 @@
+.text-center {
+  border: 1px solid black;
+  text-align: center;
+}
+.center {
+  width: 300px;
+  border: 1px solid black;
+  margin: 100px auto;
+}
+.img {
+  width: 500;
+  display: block;
+  margin: auto;
+}
