@@ -1,14 +1,28 @@
-.text-center {
-  border: 1px solid black;
-  text-align: center;
+/* div {
+  color: blue;
+   border: 1px solid black; 
 }
-.center {
-  width: 300px;
-  border: 1px solid black;
-  margin: 100px auto;
+*/
+
+.red {
+  background-color: rgb(18, 15, 15);
+  height: 500;
 }
-.img {
-  width: 500;
-  display: block;
-  margin: auto;
+.image {
+  background-image: url("https://www.google.com/imgres?q=image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fabstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Ffull-hd&docid=HOOef33nbgyQdM&tbnid=TYKp6NN-TlN4RM&vet=12ahUKEwjTuZnuraOHAxVdklYBHaQ-BiMQM3oECDMQAA..i&w=626&h=358&hcb=2&itg=1&ved=2ahUKEwjTuZnuraOHAxVdklYBHaQ-BiMQM3oECDMQAA");
+  height: 720px;
+}
+.rectangle {
+  width: 580;
+  height: 100px;
+  border: width 1px;
+  border-style: solid;
+  border-color: brown;
+}
+
+.size {
+  width: 900px;
+  height: 200px;
+  background-color: steelblue;
+  color: peru;
 }

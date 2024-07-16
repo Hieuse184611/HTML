@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin Example</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+      }
+
+      .box-margin {
+        margin: 20px; /* Thiết lập khoảng cách 20px ở tất cả các phía */
+      }
+
+      .box-margin-top {
+        margin-top: 30px; /* Thiết lập khoảng cách 30px ở phía trên */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box-margin">Box with margin</div>
+    <div class="box box-margin-top">Box with top margin</div>
+  </body>
+</html>
