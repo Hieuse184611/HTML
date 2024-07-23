@@ -1,6 +1,50 @@
-.left {
-  float: left;
+.container {
+  display: flex;
+  background-color: rgb(149, 221, 224);
+  height: 300px;
+  width: 600;
+
+  /* flex-direction: column; */
+  /*|-> sap xep theo chieu doc */
+  /* flex-direction: row; */
+  /*|-> sap xep theo chieu ngang */
+  /* flex-direction: row-reverse; */
+  /* |-> xep cac item tu phai sang trai  */
+  /* flex-direction: column-reverse; */
+  /* |-> Sap xep cac item tu duoi len tren  */
+  /* flex-wrap: wrap; */
+  /* |-> Xuong dong  >< flex-reverse tuong tu nhu tren */
+  /* justify-content: flex-start; */
+  /* |-> Can chinh Item mac dinh  */
+  /* justify-content: flex-end; */
+  /* |-> Can chinh Item sang ben phai  */
+  /* justify-content: center;
+  |-> Can chinh Item vao giua  */
+  /* justify-content: space-between; */
+  /* |-> Can chinh Item ma o giua co khoang cach deu nhau  */
+  /* justify-content: space-around; */
+  /* |-> Can chinh Item trc no deu cos khoang cach   */
+  /* justify-content: space-evenly; */
+  /* |-> Can chinh Item trc no deu co khaong cach DEU NHAU   */
 }
-.clear {
-  clear: both;
+.item {
+  width: 100px;
+  height: 50px;
 }
+.red {
+  flex-basis: 200px;
+  background-color: red;
+}
+.green {
+  background-color: green;
+  flex-grow: 1;
+}
+.blue {
+  background-color: blue;
+  flex-grow: 1;
+}
+.yellow {
+  background-color: yellow;
+}
+/* flex-grow + number chiem them ..number khoang trong con thua  
+cai nay sinh ra de vd item 1va2 cho 1px item2 cho ..number px con la*/
